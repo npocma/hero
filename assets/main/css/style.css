@@ -1,0 +1,346 @@
+
+/* stick-no-bills-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Stick No Bills';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/stick-no-bills-v15-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/stick-no-bills-v15-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* stick-no-bills-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Stick No Bills';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/stick-no-bills-v15-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/stick-no-bills-v15-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* pt-sans-regular - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+src: url('../fonts/pt-sans-v17-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+     url('../fonts/pt-sans-v17-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* pt-sans-700 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+src: url('../fonts/pt-sans-v17-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+     url('../fonts/pt-sans-v17-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* playfair-display-regular - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+src: url('../fonts/playfair-display-v37-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+     url('../fonts/playfair-display-v37-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* playfair-display-700 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+src: url('../fonts/playfair-display-v37-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+     url('../fonts/playfair-display-v37-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+/* ---------------- Header Section begin  ---------------- */
+.header_text {
+font-size: 12px;
+color: #969696;
+font-family: 'PT Sans';
+}
+
+.header {
+background-color: black;
+}
+
+/* ---------------- Header Section end  ---------------- */
+
+
+/* ---------------- Navbar Section Begin  ---------------- */
+.logo {
+font-family: 'Stick No Bills';
+font-weight: 700;
+font-size: 36px;
+color: #FFFFFF;
+}
+
+.cs_active {
+background-color: #2F2F2F;
+}
+
+.nav-link:hover:not(.active) {
+background-color: #1F1F1F;
+}
+/* ---------------- Navbar Section End  ---------------- */
+
+/* ---------------- Home Section Begin  ---------------- */
+.home {
+background-image: url('../imgs/home.jpg');
+background-size: cover;
+width: 100%;
+height: calc(100vh - 113px);
+background-repeat: no-repeat;
+}
+
+.home_box {
+border: 4px solid #fff;
+padding: 100px 60px;
+color: #fff;
+transition: 0.5s;
+}
+
+.home_box:hover {
+background-color: rgba(255, 255, 255, 0.4);
+cursor: default;
+}
+
+.home_porten {
+font-family: 'Stick No Bills';
+font-weight: 700;
+font-size: 64px;
+padding: 0 0 8px 0;
+border-bottom: 2px solid #fff;
+}
+
+.home_city {
+font-family: 'PT Sans'; 
+font-weight: 400;
+font-size: 22px; 
+}
+
+.home_p {
+font-family: 'PT Sans'; 
+color: #fff;
+}
+/* ---------------- Home Section End  ---------------- */
+
+
+/* ---------------- Season Section Begin  ---------------- */
+.watch {
+background-color: black;
+}
+.watch_header {
+font-family: 'Playfair Display';
+color: #fff;
+font-size: 36px;
+font-weight: 700;
+}
+
+.line {
+height: 1px;
+width: 15%;
+background-color: #fff;
+}
+
+.watch_back {
+background: #191B1C;
+}
+
+.card_h {
+font-family: 'Playfair Display', sans-serif, serif;
+font-weight: 400;
+font-size: 18px;
+color: #fff;
+}
+
+.card_price {
+font-family: 'Playfair Display', sans-serif, serif;
+font-weight: 700;
+font-size: 16px;
+color: #D0D0D0;
+}
+
+
+/* New Collectino */
+
+.new_collection {
+background-image: url("../imgs/collection.jpg");
+height: auto;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.btn_porten {
+border: 1px solid #fff;
+padding: 12px 24px;
+color: #fff;
+border-radius: 0;
+}
+
+.btn_porten:hover {
+color: #000;
+background-color: #fff;
+border-radius: 0;
+}
+
+/* ---------------- Season Section End  ---------------- */
+
+
+/* ---------------- Collection Section Begin  ---------------- */
+.collect_img {
+background-image: url("../imgs/colletction_2.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.collect_text {
+font-family: 'PT Sans';
+font-weight: 400;
+font-size: 14px;
+color: #fff;
+}
+/* ---------------- Collection Section End  ---------------- */
+
+
+/* ---------------- Brand Section Begin  ---------------- */
+.brand {
+background-color: #0f0f0f;
+}
+/* ---------------- Brand Section End  ---------------- */
+
+
+/* ---------------- Footer Section Begin  ---------------- */
+.footer_img {
+background-image: url("../imgs/footer.jpg");
+background-size: cover;
+background-position: center;
+}
+.footer_header {
+font-family: 'Playfair Display';
+font-size: 24px;
+font-weight: 400;
+color: white;
+}
+.footer_btn {
+/* font-family: "PT Sans"; */
+font-weight: 400;
+font-size: 14px;
+color: white;
+display: inline-block;
+background-color: #0F0F0F;
+padding: 10px 20px;
+text-decoration: none;
+transition: 0.4s;
+}
+
+.footer_btn:hover {
+background-color: #1F1F1F;
+}
+
+.footer_control {
+background-color: rgba(255, 255, 255, 0.4);
+border-radius: 0;
+}
+
+.footer_control::placeholder {
+color: rgba(192, 192, 192);
+}
+.footer_control:focus {
+background-color: rgba(255, 255, 255, 0.4);
+color: black;
+}
+
+.subscribe_btn {
+padding: 8px 20px;
+border: none;
+background-color: #0F0F0F;
+color: #fff;
+}
+.subscribe_btn:hover {
+background-color: #1f1f1f;
+}
+
+.copyright {
+font-family: "PT-Sans";
+font-weight: 400;
+font-size: 12px;
+color: #D0D0D0;
+}
+
+.fig_link {
+font-family: "PT-Sans";
+font-weight: 700;
+font-size: 12px;
+color: #D0D0D0;
+}
+
+.footer_bottom {
+background-color: #0F0F0F;
+}
+
+/* ---------------- Footer Section End  ---------------- */
+
+
+
+@media screen and (max-width: 992px) {
+.logo {
+  font-size: 28px;
+}
+.home {
+  height: 100%;
+}
+.home_box {
+  padding: 70px 40px;
+}
+.home_porten {
+  font-size: 40px;
+}
+.home_city {
+  font-size: 18px;
+}
+
+.home_p {
+  width: 90% !important;
+}
+
+.collect_text {
+  width: 90% !important;
+}
+
+.new_collection {
+  height: 500px;
+}
+.collect_img {
+  height: 500px;
+}
+}
+@media screen and (max-width: 600px) {
+.wrap{
+  display:block !important;
+}
+.none1{
+  display: flex !important;
+  justify-content: center;
+}
+.header_text1{
+  display: none;
+}
+.header_text2{
+  display: flex;
+  justify-content: center;
+}
+.watch_header {
+  font-size: 24px;
+}
+}
